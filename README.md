@@ -1,3 +1,8 @@
+# This is a brand new repository for future work on my expensetracking frontend interface. I hope to expand this project to be a hub for students not just expense tracking
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
