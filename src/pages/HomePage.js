@@ -1,7 +1,7 @@
 import React from 'react';
 
 function HomePage() {
-    console.log('Rendering HomePage component');
+    //console.log('Rendering HomePage component');
     return (
         <div>
             <h1>Welcome to Expense Tracking</h1>
