@@ -1,6 +1,7 @@
 import React from 'react';
 import "../styles/Login.css";
 import PropTypes from "prop-types";
+import { useNavigate } from 'react-router-dom';
 
 async function loginUser(creds) {
     try {
@@ -23,9 +24,10 @@ async function loginUser(creds) {
     }
 }
 
-function Login({setToken}) {
+function Login({ setToken }) {
     const [email, setEmail] = React.useState();
     const [password, setPassword] = React.useState();
+    const navigate = useNavigate();
 
     const handleSubmit = async (submit) => {
         submit.preventDefault();
@@ -35,25 +37,25 @@ function Login({setToken}) {
                 password
             });
             setToken(token);
+            navigate("/"); // Navigate to the home page upon successful login
         } catch (error) {
             console.error('Login failed:', error);
         }
     }
 
-    return (<div className="loginform">
+    return (
+        <div className="loginform">
             <form onSubmit={handleSubmit}>
                 <label>
                     <p>Email</p>:
-                    <input type="text" onChange={submit => setEmail(submit.target.value)}/>
+                    <input type="text" onChange={submit => setEmail(submit.target.value)} />
                 </label>
                 <label>
                     <p>Password</p>:
-                    <input type="password" onChange={submit => setPassword(submit.target.value)}/>
+                    <input type="password" onChange={submit => setPassword(submit.target.value)} />
                 </label>
                 <button type="submit">Submit</button>
-
             </form>
-
         </div>
     );
 }
