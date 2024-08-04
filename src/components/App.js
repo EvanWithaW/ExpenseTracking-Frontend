@@ -23,7 +23,7 @@ function App() {
     };
 
     if (token == null) {
-        console.log('Token:', token);
+        // console.log('Token:', token);
         return <Login setToken={setToken} />;
     }
     return (
