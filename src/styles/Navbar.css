@@ -1,0 +1,32 @@
+.navbar {
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #e9ecef;
+    padding: 0.5rem 1rem;
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-decoration: none;
+    color: gainsboro;
+}
+
+.navbar nav {
+    display: flex;
+    gap: 3rem;
+}
+
+.navbar a {
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-decoration: none;
+    color: dimgrey;
+    border: 3px solid transparent;
+    padding: 0.5rem 1rem;
+    border-radius: 15%;
+    transition: color 0.4s, border-color 0.3s;
+}
+
+.navbar a:hover {
+    border-color: darkslategrey;
+    color: darkslategrey;
+}
