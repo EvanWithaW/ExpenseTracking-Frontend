@@ -1,0 +1,33 @@
+.overviewPageInfo {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #f5f5f5;
+}
+
+.expenseList, .overallMetrics {
+    flex: 1;
+    padding: 20px;
+    margin: 20px;
+    box-sizing: border-box;
+}
+
+.expenseList{
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.expenseList li {
+    list-style-type: none;
+    padding: 10px;
+    border-bottom: 1px solid #f5f5f5;
+}
+
+.overallMetrics{
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
