@@ -18,7 +18,7 @@ This front-end was created using React.js, and interacts with the backend API lo
   
 
 
-2. Clone the repo, navigate to the root of this directory, and run the following command:
+2. Clone this repo, navigate to the root of this directory, and run the following command:
 
    - ```npm start```
 
