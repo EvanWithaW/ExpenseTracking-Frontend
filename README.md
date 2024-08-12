@@ -7,6 +7,16 @@ This front-end was created using React.js, and interacts with the backend API lo
 
 ---
 
+## Running the App:
+
+**This app requires Node to be installed in order to run** 
+
+Clone the repo, navigate to the root of this directory, and run the following command:
+
+```npm start```
+
+--- 
+
 ## Features:
 
 - **Login**:
