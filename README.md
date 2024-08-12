@@ -9,11 +9,19 @@ This front-end was created using React.js, and interacts with the backend API lo
 
 ## Running the App:
 
-**This app requires Node to be installed in order to run** 
+*This app requires Node to be installed in order to run*
 
-Clone the repo, navigate to the root of this directory, and run the following command:
+***Instructions:***
 
-```npm start```
+1. Clone the [backend repo](https://github.com/EvanWithaW/expensetracking-backend) and ensure it is running on your local machine.
+   - This will require some configuration only in the application.properties file to connect your db.
+  
+
+
+2. Clone the repo, navigate to the root of this directory, and run the following command:
+
+   - ```npm start```
+
 
 --- 
 
